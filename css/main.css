@@ -1,0 +1,32 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+
+  font-family: 'Abhaya Libre', serif;
+}
+
+header {
+  background-color: #423ca3;
+}
+
+.icon-label {
+  color: white;
+}
+
+h1 {
+  color: white;
+}
+
+.btn {
+  background-color: #15114c;
+  border-color: #15114c;
+}
